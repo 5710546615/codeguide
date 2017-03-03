@@ -1,4 +1,4 @@
-Create Descriptive Names
+**Create Descriptive Names**
 
 Constrained by slow, clunky teletypes, programmers in the past used to contract the names of their variables and routines to save time, keystrokes, ink, and paper. This culture persists in some communities, in the name of backward compatibility; consider C's tongue-twisting wcscspn (wide character string complement span) function. But there's no excuse for this practice in modern code.
 Use long descriptive names, like complementSpanLength, to help yourself, now and in the future, as well as your colleagues to understand what the code does. The only exception to this rule concerns the few key variables used within a method's body, such as a loop index, a parameter, an intermediate result, or a return value.
@@ -21,7 +21,7 @@ Source : http://www.informit.com/articles/article.aspx?p=2223710
 
 -------------------------------------------------------------------------------------------------------------------
 
-Split Your Code into Short, Focused Units
+**Split Your Code into Short, Focused Units**
 
 Every method, function, or logical code block should fit on a reasonably-sized screen window (25–50 lines long). If it's longer, split it into shorter pieces. An exception can be made for simple repetitive code sequences. However, in such cases, consider whether you could drive that code through a data table. Even within a routine, divide long code sequences into blocks whose function you can describe with a comment at the beginning of each block.
 Furthermore, each class, module, file, or process should concern one single thing. If a code unit undertakes diverse responsibilities, split it accordingly.
@@ -52,6 +52,5 @@ Good Example :
 			}
 		}
 	}
-}
 ```
 Source : http://www.informit.com/articles/article.aspx?p=2223710
